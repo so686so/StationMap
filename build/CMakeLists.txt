@@ -29,9 +29,10 @@ ADD_LIBRARY( LinkedList    ${LIB_DIR}/linked_list.c )
 ADD_LIBRARY( Key           ${LIB_DIR}/key.c )
 ADD_LIBRARY( Thread        ${LIB_DIR}/thread.c )
 ADD_LIBRARY( IntegrityKey  ${LIB_DIR}/integrity_key.c )
+ADD_LIBRARY( ShowMap       ${LIB_DIR}/show_map.c )
 
 # Set Library List # 
-SET( LIB_NAME Basic Key LinkedList Thread IntegrityKey )
+SET( LIB_NAME Basic Key LinkedList Thread IntegrityKey ShowMap )
 
 # Include #
 INCLUDE_DIRECTORIES( ${INC_DIR} )

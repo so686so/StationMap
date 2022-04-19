@@ -14,4 +14,8 @@ typedef char BOOL;
 
 #define UNUSED(x) (void)(x)
 
+#define COLOR_SKY       36
+#define COLOR_PINK      35
+#define COLOR_YELLOW    33
+
 #endif
